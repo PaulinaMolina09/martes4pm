@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background: url(../Maquetación/images/bg_cabezote.jpg) bottom repeat-x;
+height: 230px;
+}
+
+.container{
+    width: 950px;
+   /* border: red solid 1px;*/
+    margin: 0 auto;
+}
+
+#logo{
+    background: url(../Maquetación/images/logo_corporacion_diafora.png) no-repeat;
+    height: 180px;
+    width: 280px;
+}
+
+#logo a{
+display: block;
+height: 100%;
+width: 100%;
+
+}
+
+#logo h1{
+    display: none;
+}
+
+aside{
+    margin-bottom: 40px;
+}
+
+.mainmenu{
+
+    width: 250px;
+    background-color: #feb228;
+    display: inline-block;
+    vertical-align: top;
+    background: #feb228 url(./images/bg_botones_bottom.jpg) no-repeat;
+    padding-top: 15px;
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background:  url(./images/bg_botones_top.jpg) no-repeat bottom;
+    padding-bottom: 15px ;
+
+}
+
+.mainmenu ul li{
+    color: #fff;
+    text-indent: 15px;
+    padding: 6px 0;
+    border-bottom: dotted #fff 1px;
+}
+
+.mainmenu ul li:hover{
+    background: rgb(255, 221, 126);
+}
+
+section{
+    padding-top: 10px;
+    background: #ccc;
+    background: #EBEBEB url(./images/images/bg_bottom_corporativo.jpg) repeat-x bottom;
+    padding-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    align-items: flex-start;
+    column-gap: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    
+}
+
+.seccion{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    list-style: none;
+    
+}
+
+
+article{
+    width: 48%;
+    list-style: none;
+}
+
+.lista{
+    column-count: 2;
+    list-style: none;
+   
+}
+
+footer{
+    background: url(./images/barra.jpg) repeat-x bottom;
+    padding-bottom: 30px;
+}
+
+footer a, a{
+    text-decoration: none;
+    color: #feb228;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer li{
+    border-bottom: dotted #DDDCDC 1px;
+    padding: 3px;
+}
+
+aside img{
+    padding: 15px;
+}
+
+.seccion{
+    width: 250px;
+}
+
+.info{
+    width: 250px;
+}
+
+.rayas{
+    border-left: dotted #DDDCDC 1px;
+    border-right: dotted #DDDCDC 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  

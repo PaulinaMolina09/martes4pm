@@ -1,0 +1,46 @@
+.color{
+    background-color: rgb(238, 206, 219);
+    
+}
+
+img{
+    width: 100%;
+}
+
+  /*Pequeños dispositivos (Celulares Horizontales)*/
+@media ( min-width:576px){
+    .color{
+        background-color: blueviolet;
+    }
+    h1 {
+        text-align: left;
+        color: darkmagenta;
+    }
+}
+
+  /*Equipos de escritorio de resoluciones mayores a 1024)*/
+@media (min-width:992px){
+    .color{
+        background-color: bisque;
+       
+    }
+
+    img{
+        width: 49%;
+    }
+
+    h1 {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.titulo{
+    text-align: center;
+    background-color: bisque;
+}
+
+.imagen2 {
+    display: flex;
+}

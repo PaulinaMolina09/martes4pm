@@ -1,0 +1,63 @@
+body{
+    margin:0 ;
+}
+
+
+header{
+    background-color: bisque;
+    height: 100px;
+}
+
+nav{
+    background-color: blue;
+    height: 30px;
+}
+
+aside{
+    background-color: cornflowerblue ;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+article{
+    background-color: aquamarine;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: deeppink;
+    height: 80px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .flex{
+        display: flex;
+        column-gap: 20px;
+    }
+   .wrap{
+    flex-wrap: wrap ;
+ }
+    nav{
+        flex-grow: 4;
+        height: 300px;
+    }
+
+    section{
+        flex-grow: 12;
+    }
+    article {
+    flex: 1 1 280px ;
+ }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .noflex{
+        display: block;
+    }
+    nav{
+        height: 35px;
+    }
+}

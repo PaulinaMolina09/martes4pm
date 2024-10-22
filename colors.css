@@ -1,0 +1,34 @@
+.nombreclor{
+    color: aqua;
+    color: aquamarine;
+    color: azure;
+    color: blue;
+    color: black;
+}
+
+.colorRGB {
+    color: rgb(red, green, blue);
+    color: rgb(255, 0, 0);
+    
+}
+
+.colorHeadecinal{
+    color: #123456;
+    color: #FF0000;
+    color: #00FF00;
+    color: #0000FF;
+    color: #AA0012;
+    color: #CC4562;
+    color: #44CC19;
+    color: #00AA00;
+    color: #0034EE;
+    color: #FF9900;
+    color: #0b4f99;
+
+}
+
+.transparencia{
+    color: rgba(red, green, blue, alpha);
+    color: rgba(155, 100, 50, 0.7);
+
+}
